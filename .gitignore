@@ -1,7 +1,19 @@
-__pycache__/
+
 .venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
 .env
-*.db
-models/*.joblib
+.DS_Store
+
+# Local datasets
 data/*.csv
+
+# Generated models
+models/*.joblib
+models/*.pkl
+
+# Generated reports
 reports/*.csv
+reports/*.json
